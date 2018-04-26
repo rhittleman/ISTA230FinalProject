@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title>ISTA Pediatrics</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 </head>
 <body>
 	<header>
@@ -11,23 +13,29 @@
 		<img src="images/icons/amalogo.png" alt="ama logo">
 	</header>
 	<nav>
-		<ul>
-			<li>
-				Home
+		<ul class="navbar nav-pills">
+			<li class="nav-item">
+				<a class="nav-link active" href="">Home</a>
 			</li>
-			<li>
-				About Us
-				<ul>
-					<li>Mission Statement</li>
-					<li>Services</li>
-					<li>People</li>
+			<li class="nav-item">
+				<a class="nav-link" href="">About Us</a>
+				<ul class="nav-pills">
+					<li class="nav-item"><a class="nav-link" href="">Mission Statement</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="">People</a></li>
 				</ul>
 			</li>
-			<li>
-				Contact Us
+			<li class="nav-item">
+				<a class="nav-link" href="">Contact Us</a>
+				<ul class="nav-pills">
+					<li class="nav-item"><a class="nav-link" href="">Location</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Hours of Operation</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Remote Contact Info</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Contact Form</a></li>
+				</ul>
 			</li>
-			<li>
-				Testimonials
+			<li class="nav-item">
+				<a class="nav-link" href="">Testimonials</a>
 			</li>
 
 		</ul>
@@ -50,6 +58,7 @@
 	</article>
 
 	<article id="contact-info">
+		<h2>Contact Us</h2>
 		ISTA Pediatrics<br>
 		1501 W Sentinel Peak Rd S<br>
 		Tucson, AZ 85745 <br>
