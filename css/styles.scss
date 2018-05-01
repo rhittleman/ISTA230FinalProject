@@ -1,0 +1,8 @@
+// Include a SCSS variables file, used to define all of our colors
+@import 'variables.scss';
+
+body{
+	background-color: $primary-background-color;
+	color: $primary-foreground-color;
+}
+
