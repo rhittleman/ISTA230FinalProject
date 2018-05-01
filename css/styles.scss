@@ -1,7 +1,20 @@
 // Include a SCSS variables file, used to define all of our colors
 @import 'variables.scss';
 
-body{
+body {
 	background-color: $primary-background-color;
 	color: $primary-foreground-color;
+}
+
+article {
+	margin: 1%;
+	//border-width: 8px;
+	//border-color: $primary-foreground-color;
+	//border-style: solid;
+	//border-radius: 2px;
+}
+
+#flu-statistics img {
+	width: 40em;
+	max-width: 100%;
 }
