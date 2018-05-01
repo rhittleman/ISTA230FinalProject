@@ -1,8 +1,8 @@
 body {
-  background-color: #000;
-  color: #fff; }
+  background-color: #188;
+  color: #fff;
+}
 
 #flustatistics img {
-  max-width: 5em; }
-
-/*# sourceMappingURL=styles.css.map */
+  max-width: 400px;
+}
