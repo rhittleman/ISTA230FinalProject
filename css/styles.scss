@@ -14,7 +14,11 @@ article {
 	//border-radius: 2px;
 }
 
-h1{
+h1,
+h2,
+h3,
+img,
+p{
 	margin: 1%;
 }
 
@@ -25,4 +29,12 @@ margin: 1%;
 #flu-statistics img {
 	width: 40em;
 	max-width: 100%;
+}
+
+a{
+	color: $primary-foreground-color;
+}
+
+a:hover {
+	color: black;
 }
