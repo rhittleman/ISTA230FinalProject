@@ -3,14 +3,11 @@ body {
   color: #fff;
 }
 
-article {
-  margin: 1%;
-}
-
 h1,
 h2,
 h3,
 img,
+article,
 p {
   margin: 1%;
 }
