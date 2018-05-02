@@ -1,5 +1,5 @@
 body {
-  background-color: #188;
+  background-color: #1ab2ff;
   color: #fff;
 }
 
@@ -30,7 +30,7 @@ a:hover {
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #188;
+  background-color: #1ab2ff;
 }
 
 .dropdown-menu .dropdown-item:active {
