@@ -12,13 +12,13 @@ p {
   margin: 1%;
 }
 
-.dropdown {
-  margin: 1%;
-}
-
 #flu-statistics img {
   width: 40em;
   max-width: 100%;
+}
+
+#form {
+  margin: 1%;
 }
 
 a {
@@ -27,4 +27,18 @@ a {
 
 a:hover {
   color: black;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #188;
+}
+
+.dropdown-menu .dropdown-item:active {
+  color: black;
+}
+
+.testimonials {
+  border-width: 1px;
+  border-bottom: solid;
+  border-color: #fff;
 }
