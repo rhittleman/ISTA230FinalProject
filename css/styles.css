@@ -5,10 +5,14 @@ body {
 
 article {
   margin: 1%;
-  border-width: 8px;
-  border-color: #fff;
-  border-style: solid;
-  border-radius: 2px;
+}
+
+h1 {
+  margin: 1%;
+}
+
+.dropdown {
+  margin: 1%;
 }
 
 #flu-statistics img {
