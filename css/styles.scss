@@ -10,3 +10,52 @@ body{
 	max-width: 400px;
 }
 
+h1,
+h2,
+h3,
+img,
+article,
+p {
+  margin: 1%;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+#flu-statistics img {
+  width: 40em;
+  max-width: 100%;
+}
+
+#form {
+  margin: 1%;
+}
+
+.doctors,
+.testimonials,
+h2 {
+  border-bottom: 1px solid #fff;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: black;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #1ab2ff;
+}
+
+.dropdown-menu .dropdown-item:active {
+  color: black;
+}
+
+.paragraph,
+.testimonials {
+  text-indent: 50px;
+}
