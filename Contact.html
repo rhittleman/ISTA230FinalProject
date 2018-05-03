@@ -6,51 +6,53 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 <body>
 	<header>
 		<h1>ISTA Pediatrics</h1>
-		<img src="../ISTA230FinalProject/images/icons/abplogo.png" alt="abp logo">
-		<img src="../ISTA230FinalProject/images/icons/amalogo.png" alt="ama logo">
+		<p>	Phone Number: 520-555-1234</p>
 	</header>
-	
-<div class="dropdown">
-  <button class="btn btn-secondary" type="button" aria-haspopup="true" aria-expanded="false">
-    Home
-  </button>
+<div class="btn-group">
+  		<a class="btn btn-secondary" aria-haspopup="true" aria-expanded="false" href="index.html">Home</a>
+
 <div class="btn-group">
   <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     About Us
   </button>
-  <div class="dropdown-menu"  aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Mission Statement</a>
-    <a class="dropdown-item" href="#">Services</a>
-    <a class="dropdown-item" href="#">People</a>
+  <div class="dropdown-menu"  >
+    <a class="dropdown-item" href="AboutUs.html#Mission">Mission Statement</a>
+    <a class="dropdown-item" href="AboutUs.html#Services">Services</a>
+    <a class="dropdown-item" href="AboutUs.html#people">People</a>
   </div>
 </div>
 <div class="btn-group">
   <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Contact Us
   </button>
-  <div class="dropdown-menu"  aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Location</a>
-    <a class="dropdown-item" href="#">Hours of Operation</a>
-    <a class="dropdown-item" href="#">Remote Contact Info</a>
-    <a class="dropdown-item" href="#">Contact Form</a>
+  <div class="dropdown-menu"  >
+    <a class="dropdown-item" href="Contact.html#location">Location</a>
+    <a class="dropdown-item" href="Contact.html#hours">Hours of Operation</a>
+    <a class="dropdown-item" href="Contact.html#contact">Remote Contact Info</a>
+    <a class="dropdown-item" href="Contact.html#form">Contact Form</a>
 </div>
+ 
+ <div class="btn-group">
+    		<a class="btn btn-secondary"  aria-haspopup="true" aria-expanded="false" href="Testimonials.html">Testimonials</a>
+    </div>
 </div>
 </div>
 
 	
-	<p> <br>Contact us for more information:</br>
-<br>ISTA Pediatrics</br>
+	<p id="contact"> <br>Contact us for more information:<br/>
+<br>ISTA Pediatrics<br/>
 1501 W Sentinel Peak Rd S
-<br>Tucson, AZ 85745</br>
+<br>Tucson, AZ 85745<br/>
 520-555-1234
-<br>FAX: 520-555-5678</br>
-	</p>
-Office Hours: Monday - Friday, 9am-6pm. Call for appointments before 9am.<br>
+<br>FAX: 520-555-5678<br/>
+	</p><p>
+Office Hours: Monday - Friday, 9am-6pm. Call for appointments before 9am.<br id="hours">
 	</p>
 	
 
@@ -67,7 +69,9 @@ Office Hours: Monday - Friday, 9am-6pm. Call for appointments before 9am.<br>
 	</form>
 	<footer>
 		<a href="https://www.facebook.com/ista230">Find on Facebook!</a>
-				<a href="#top">Link to Navigation</a>
+		<img src="images/icons/abplogo.png" alt="abp logo">
+		<img src="images/icons/amalogo.png" alt="ama logo">
+				<a href="#top">Jump to Top</a>
 	</footer>
 </body>
 </html>
