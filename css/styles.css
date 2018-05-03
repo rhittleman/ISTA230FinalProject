@@ -12,6 +12,11 @@ p {
   margin: 1%;
 }
 
+header,
+footer {
+  text-align: center;
+}
+
 #flu-statistics img {
   width: 40em;
   max-width: 100%;
@@ -19,6 +24,12 @@ p {
 
 #form {
   margin: 1%;
+}
+
+.doctors,
+.testimonials,
+h2 {
+  border-bottom: 1px solid #fff;
 }
 
 a {
@@ -37,8 +48,7 @@ a:hover {
   color: black;
 }
 
+.paragraph,
 .testimonials {
-  border-width: 1px;
-  border-bottom: solid;
-  border-color: #fff;
+  text-indent: 50px;
 }
