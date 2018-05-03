@@ -1,67 +1,12 @@
 // Include a SCSS variables file, used to define all of our colors
 @import 'variables.scss';
 
-body {
+body{
 	background-color: $primary-background-color;
 	color: $primary-foreground-color;
 }
 
-article {
-	//border-width: 8px;
-	//border-color: $primary-foreground-color;
-	//border-style: solid;
-	//border-radius: 2px;
+#flustatistics img {
+	max-width: 400px;
 }
 
-h1,
-h2,
-h3,
-img,
-article,
-p{
-	margin: 1%;
-}
-
-header,
-footer{
-	text-align: center;
-}
-
-
-#flu-statistics img {
-	width: 40em;
-	max-width: 100%;
-}
-#form{
-	margin: 1%;
-}
-
-.doctors,
-.testimonials,
-h2{
-	border-bottom: 1px solid $primary-foreground-color;
-}
-
-a{
-	color: $primary-foreground-color;
-}
-
-a:hover {
-	color: black;
-}
-
-.dropdown-menu .dropdown-item:hover {
-	background-color: $primary-background-color;
-
-}
-
-.dropdown-menu .dropdown-item:active{
-	color: black;
-}
-
-
-.paragraph,
-.testimonials
-{
-	text-indent: 50px;
-}
