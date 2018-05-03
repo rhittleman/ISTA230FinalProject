@@ -26,6 +26,10 @@ footer {
   max-width: 100%;
 }
 
+#map {
+  height: 400px;
+}
+
 #form {
   margin: 1%;
 }
